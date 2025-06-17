@@ -328,5 +328,5 @@ if (n % 2 === 1) {
 // Enter number 3 :7
 // Enter number 4 :6
 // Array elements : [ 5, 8, 7, 6 ]
-// Middle values of the array are : 8 and 
+// Middle values of the array are : 8 and 7
 //-----------------------------------------------------------------------------------------------------------------------------------
