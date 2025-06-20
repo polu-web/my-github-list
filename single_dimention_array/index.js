@@ -85,7 +85,7 @@ for (var i = 1; i < arr.length; i++) {
     }
 }
 console.log("Array elements :", arr);
-console.log("Largest element of this array : ", min);
+console.log("Smallest element of this array : ", min);
 
 // output:
 // Enter the size of the array : 3
