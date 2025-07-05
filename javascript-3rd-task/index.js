@@ -229,21 +229,24 @@ console.log("Result is: \n" + years + " Year(s) \n" + months + " Month(s)\n" + d
 var a = parseInt(prompt("enter first number : "));
 var b = parseInt(prompt("enter second number : "));
 console.log("Before swap : " + "a = " + a + " , b = " + b);
-a = a + b;
-b = a - b;
-a = a - b;
-console.log("After swap : " + "a = " + a + " , b = " + b);
-//------------------------------------------------------------------------------------------------------------------------------------------
-
-// 20. Enter 2 numbers and store it into 2 variables a and b respectively. Swap the values of the variable without using a third variable.
-var a = parseInt(prompt("enter first number : "));
-var b = parseInt(prompt("enter second number : "));
-console.log("Before swap : " + "a = " + a + " , b = " + b);
 
 var temp = a;
 a = b;
 b = temp
 console.log("After swap : " + "a = " + a + " , b = " + b);
+
+//------------------------------------------------------------------------------------------------------------------------------------------
+
+// 20. Enter 2 numbers and store it into 2 variables a and b respectively. Swap the values of the variable without using a third variable.
+
+var a = parseInt(prompt("enter first number : "));
+var b = parseInt(prompt("enter second number : "));
+console.log("Before swap : " + "a = " + a + " , b = " + b);
+a = a + b;
+b = a - b;
+a = a - b;
+console.log("After swap : " + "a = " + a + " , b = " + b);
+
 //----------------------------------------------------------------------------------------------------------------------------------------------
 
 // 21. Enter u,t and f and then find the distance (s) using the formula s=ut+(1/2)*ft²
