@@ -254,7 +254,19 @@ console.log(result);
 
 // 25. 0, 3, 10, 17... 15 terms
 
+let term = 0;
+let result = [];
 
+for (let i = 1; i <= 15; i++) {
+  result.push(term);
+  if (i === 1) {
+    term += 3;
+  } else {
+    term += 7;
+  }
+}
+
+console.log(result.join(", "));
 
 // 26. 5, 7, 11, 17... 10 terms
 
@@ -313,6 +325,14 @@ for (var i = 0; i <= 4; i++) {
 console.log(arr);
 
 // 31. 1, 22, 333... upto 5 terms
+
+for (let i = 1; i <= 5; i++) {
+  let pattern = '';
+  for (let j = 1; j <= i; j++) {
+    pattern += i;
+  }
+  console.log(pattern);
+}
 
 // 32. 9, 99, 999, ... upto 5 terms
 
