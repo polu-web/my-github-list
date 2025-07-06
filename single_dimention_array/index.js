@@ -93,7 +93,7 @@ console.log("Smallest element of this array : ", min);
 // Enter number 2 :5
 // Enter number 3 :4
 // Array elements : [ 12, 5, 4 ]
-// Largest element of this array :  4
+// Smallest element of this array :  4
 
 //-------------------------------------------------------------------------------------------------------------------
 
