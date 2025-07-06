@@ -99,12 +99,12 @@ console.log("Smallest element of this array : ", min);
 
 //5. Enter the size and elements of an array and find the average, largest,smallest and the sum together using a single loop. 
 
-var n = +prompt("Enter the size of the array:");
+var n = parseInt(prompt("Enter the size of the array:"));
 var arr = [];
 var sum = 0, min, max, avg;
 
 for (var i = 0; i < n; i++) {
-    var num = +prompt("Enter number " + (i + 1) + ":");
+    var num = parseInt(prompt("Enter number " + (i + 1) + ":"));
     arr.push(num);
     sum += num;
 
